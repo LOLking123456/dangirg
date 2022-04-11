@@ -4,11 +4,11 @@ library.options.underlinecolor = 'rainbow'
 library.options.toggledisplay = 'Check'
 
 local Window = library:CreateWindow('Untitled Hood') 
-local Label = Window:Label('Slient Aim Legend Handles',(nil))
+local Label = Window:Label('Silent Aim Legend Handles',(nil))
 
 local Button = Window:Button('Slient Aim (FOV)',function()
 game.StarterGui:SetCore("SendNotification", {
-Title = "Slient Aim (FOV)"; 
+Title = "Silent Aim (FOV)"; 
 Text = "Enabled";
 })
 local sound = Instance.new("Sound", game.Workspace)
